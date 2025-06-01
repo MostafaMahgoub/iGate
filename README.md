@@ -88,31 +88,6 @@ npx jest
 
 Tests include key UI components and data logic.
 
-## 🧩 Troubleshooting
-
-If styles or components don't render:
-
-1. **Check Tailwind CSS is compiled**
-
-   ```bash
-   npm run build
-   ```
-
-2. **Verify critical files exist**
-
-   - `tailwind.config.js`
-   - `postcss.config.js`
-   - `app/globals.css`
-
-3. **Clear cache and restart**
-
-   ```bash
-   rm -rf .next
-   npm run dev
-   ```
-
-4. **Inspect browser console** for any runtime errors
-
 ## 🧭 Development Scripts
 
 - `npm run dev` – Start local dev server
