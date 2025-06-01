@@ -1,4 +1,3 @@
-import type React from "react";
 import "./globals.css";
 import { Philosopher, Inter } from "next/font/google";
 import { ThemeProvider } from "@/components/ui/theme-provider";
