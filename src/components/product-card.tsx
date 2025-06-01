@@ -25,7 +25,7 @@ export function ProductCard({ product }: ProductCardProps) {
       >
         <div className="relative aspect-square overflow-hidden bg-gray-100">
           <Image
-            src={product.thumbnail || "/placeholder.svg?height=300&width=300"}
+            src={product.images[0] || "/placeholder.svg?height=300&width=300"}
             alt={product.title}
             fill
             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
